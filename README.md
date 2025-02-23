@@ -2,7 +2,15 @@
 
 This repository contains whatever is needed to compile a minimal CLAP plug-in in plain C, which free-audio's `clap-info` accepts. It's made to be built on MacOS, perhaps other OSes will follow someday.
 
-When cloning the repository, make sure to include `--recursive-submodules` to get the `clap` and `clap-info` submodule.
+When cloning the repository, make sure to include `--recursive-submodules` to get the `clap` and `clap-info` submodules.
+
+Afterwards, run
+
+```sh
+cd tools/clap-info && git submodule init && git submodule update
+```
+
+to fetch `clap-info`'s dependencies.
 
 ## Building and running
 
