@@ -1,6 +1,6 @@
 # minimal-clap-plugin-c
 
-_This repository relates to [one of my blog posts](https://tphbrok.me/blog/road-to-audio-software-developer-2_
+_This repository relates to [one of my blog posts](https://tphbrok.me/blog/road-to-audio-software-developer-2)_
 
 This repository contains whatever is needed to compile a minimal CLAP plug-in in plain C, which free-audio's `clap-info` accepts. It's made to be built on MacOS, perhaps other OSes will follow someday.
 
