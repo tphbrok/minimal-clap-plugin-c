@@ -1,4 +1,4 @@
-# basic-clap-plugin-c
+# minimal-clap-plugin-c
 
 This repository contains whatever is needed to compile a minimal CLAP plug-in in plain C, which free-audio's `clap-info` accepts. It's made to be built on MacOS, perhaps other OSes will follow someday.
 
